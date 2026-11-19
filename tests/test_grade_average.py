@@ -32,8 +32,8 @@ def test_valid_marks_returns_expected_average(mark_one, mark_two, expected):
         ([50]), # list
         ({"mark": 50}), # dictionary
         ((50, 50)), # tuple
-        (True), # boolean
-        (False) # boolean
+        (True), # boolean true
+        (False) # boolean false
     ],
 )
 
@@ -50,8 +50,8 @@ def test_invalid_mark_one_type_raises_type_error(invalid_mark_type):
         ([50]), # list
         ({"mark": 50}), # dictionary
         ((50, 50)), # tuple
-        (True), # boolean
-        (False) # boolean
+        (True), # boolean true
+        (False) # boolean false
     ],
 )
 

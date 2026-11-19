@@ -31,8 +31,8 @@ def test_valid_score_returns_expected_result(score, expected):
         ([50]), # list
         ({"mark": 50}), # dictionary
         ((50, 50)), # tuple
-        (True), # boolean
-        (False) # boolean
+        (True), # boolean true
+        (False) # boolean false
     ],
 )
 
